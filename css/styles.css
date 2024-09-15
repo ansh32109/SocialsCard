@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #000;
+    font-size: 16px;
+    /* position: relative; */
+}
+
+main{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 15%;
+    left: 30%;
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    width: 40%; 
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.img{
+    /* border: 1px solid white;
+    border-radius: 50%; */
+    /* width: 100px;
+    height: 100px; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div img{
+    /* border: 1px solid white; */
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name{
+    /* border: 1px solid white; */
+    margin-bottom: 0.5rem;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 1.5rem;
+}
+
+.about{
+    color: hsl(0, 0%, 80%);
+    margin-bottom: 1.25rem;
+}
+
+.btn-container{
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.socials{
+    background-color: hsl(0, 0%, 20%);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.socials:hover, .socials:focus{
+    scale: 1.1;
+    background-color: hsl(0, 0%, 30%);
+    text-decoration: underline;
+    transition: all 0.5s;
+}
